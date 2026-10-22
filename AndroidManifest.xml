@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="cn.g.studio" android:versionCode="9" android:versionName="0.9">
+<uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+<application android:name=".StudioApp" android:label="G studio" android:icon="@drawable/icon" android:theme="@style/AppTheme" android:allowBackup="false" android:supportsRtl="true" android:usesCleartextTraffic="true">
+<activity android:name=".MainActivity" android:exported="true" android:windowSoftInputMode="adjustResize">
+<intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+</activity></application></manifest>
