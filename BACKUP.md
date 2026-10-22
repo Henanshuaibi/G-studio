@@ -8,7 +8,7 @@ Git 保存源码；Release 的 `G-studio-full-backup-2026-10-21.tar.zst` 包含�
 
 ```sh
 mkdir -p restored
-zstd -dc G-studio-full-backup-2026-10-21.tar.zst | tar -xf - -C restored
+zstd --long=28 -dc G-studio-full-backup-2026-10-21.tar.zst | tar -xf - -C restored
 ```
 
 保持原包名和签名覆盖更新。Android 工具链依赖相邻 pulse-player/tools 时，同时恢复 G-music 完整备份即可。
