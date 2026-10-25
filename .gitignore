@@ -1,5 +1,4 @@
 /build/
-/tools/*.keystore
-/tools/signing-password
+/tools/
 *.apk
 *.zip
